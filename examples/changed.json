@@ -1,0 +1,1 @@
+{"mcpServers":{"filesystem":{"command":"npx","args":["-y","@modelcontextprotocol/server-filesystem","/"]},"research":{"url":"https://new.example.org/v1"},"extra":{"command":"node","args":["extra.js"]}}}
