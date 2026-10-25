@@ -55,7 +55,7 @@ class DriftTests(unittest.TestCase):
             self.assertTrue(page.exists())
             cfg.write_text('{"mcpServers":{"a":{"command":"bash"}}}', encoding="utf-8")
             self.assertEqual(main(["check", str(cfg), "-b", str(baseline), "-o", str(page), "--fail-on", "high"]), 2)
-            self.assertIn("connection", page.read_text(encoding="utf-8"))
+            self.assertIn("Connection", page.read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":
