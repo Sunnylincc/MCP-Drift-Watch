@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+mcp-baseline.json
+mcp-drift-report.html
+mcp-drift-report.json
+.DS_Store
